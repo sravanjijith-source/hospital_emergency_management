@@ -1,0 +1,8 @@
+# Example Database Configuration for Hospital Emergency Management System (HEMS)
+# Copy this file to config/db.properties or set the corresponding environment variables:
+#   HEMS_DB_URL, HEMS_DB_USER, HEMS_DB_PASSWORD
+# Do NOT commit db.properties containing real credentials to version control.
+
+db.url=jdbc:mysql://localhost:3306/hems?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=hems_user
+db.password=YOUR_PASSWORD_HERE
